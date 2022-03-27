@@ -22,6 +22,8 @@ footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   size: 12cm;
   text-align: justify;
+  width: 80%;
+  padding-left: 20%;
 }
 button{
   border:black;
@@ -31,6 +33,9 @@ button{
 }
 html{
   height: 100%;
+}
+.imgfarmacia{
+  padding-left: 30%;
 }
 /* .contenido{
   min-height: calc(100% - 4rem);
