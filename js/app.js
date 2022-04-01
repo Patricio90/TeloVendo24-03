@@ -26,4 +26,15 @@ else
 }
 };
 
+//Datatable
+
+$(document).ready(function () {
+    $('#example').DataTable();
+  });
+
+  //Color table
+
+//   $(document).ready(function(){
+//     $('tr:even').css("background-color", "#cccccc")
+//   });
 
