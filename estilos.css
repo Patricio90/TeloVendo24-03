@@ -34,10 +34,11 @@ button{
   padding: 0.5rem;
 }
 .imgfarmacia{
-  padding-left: 25%;
+  padding-left: 30%;
+  padding-right: 25%;
 }
 .entrada{
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
 }
 h6{
@@ -65,4 +66,12 @@ ul{
 }
 .navbar-light .navbar-nav .nav-link{
   color: black;
+}
+
+.ayuda{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  padding-left: 20% ;
+  padding-right: 20%;
+  font-size: 20px;
 }
