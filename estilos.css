@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #f1f3f6;
   }
 .imagenes{
   width:250px; 
@@ -9,12 +9,16 @@ body {
   border-width: 1px;
 }
 footer{
-  background-color: #e9ecf0;
+  background-color: #565C55;
   height: 10rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: italic;
   font-size: 14px;
   text-align: justify;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
 }
 .parrafo{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,13 +34,15 @@ button{
   padding: 0.5rem;
 }
 .imgfarmacia{
-  padding-left: 25%;
+  padding-left: 30%;
+  padding-right: 25%;
 }
 .entrada{
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
 }
 h6{
+  color: black;
   text-align: center;
   font-size: small;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -44,4 +50,28 @@ h6{
 .pie{
   width: 50%;
   padding-left: 5%;
+  color: black;
+}
+ul{
+  color: black;
+}
+.sig{
+  color: black;
+}
+.navbar{
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+.ayuda{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  padding-left: 20% ;
+  padding-right: 20%;
+  font-size: 20px;
 }
